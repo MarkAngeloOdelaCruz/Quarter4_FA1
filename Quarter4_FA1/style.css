@@ -1,0 +1,52 @@
+body {
+    text-align: center;
+    background-color: red;
+}
+
+#content {
+    margin-left: 300px;
+    margin-right: 300px;
+    border: double 2px red;
+    border-radius: 20px;
+    padding-bottom: 20px;
+    background-color: white;
+}
+
+hr {
+    margin: 10px;
+}
+
+h1 {
+    background-color: white;
+    float: left;
+    margin-top: 60px;
+    margin-left: calc(50% - 190px);
+    font-size: 35px;
+    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: double 1px grey;
+    border-radius: 10px;
+}
+
+input[type~="radio"] {
+    float:left;
+    margin-left: calc(50% - 75px);
+    margin-right: 5px;
+}
+
+label[for~="male"], label[for~="female"], label[for~="preferNot"] {
+    float:left;
+}
+
+label[for~="male"] {
+    margin-left: 40px;
+}
+
+label[for~="female"] {
+    margin-left: 32px;
+}
+
+label[for~="preferNot"] {
+    margin-left: 5px;
+}
